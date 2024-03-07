@@ -7,6 +7,16 @@
   width: 78%;
 }
 
+#dark .body{
+  background-color: #191919;
+  color: #ffffff;
+}
+
+
+#dark{
+  background-color: #000000;
+}
+
 .header{
   margin-left: 20px;
   p{
@@ -37,6 +47,17 @@
   font-weight: 350;
 }
 
+
+  #dark .custom-select select{
+    background-color: #191919;
+      color: #ffffff;
+  }
+
+   #dark .custom-select select option{
+    background-color: #191919;
+      color: #ffffff;
+  }
+
 .custom-select select option{
   background-color: #ffffff;
   border: none;
@@ -49,9 +70,9 @@
 }
 
 .summary h5{
-  left: 350px;
+  left: 320px;
   width: 8px;
-  bottom: 75.5%;
+  bottom: 73%;
   height: 2%;
   /* content: ""; */
   display: block;
@@ -95,6 +116,12 @@
   }
 }
 
+
+#dark .IncExp .income{
+  background-color: #191919;
+    color: #ffffff;
+}
+
 .IncExp .expenses {
     width: 50%;
       background-color: rgb(241, 239, 255);
@@ -111,6 +138,11 @@
       }
 }
 
+#dark .IncExp .expenses {
+  background-color: #191919;
+  color: #ffffff;
+}
+
 .airtime{
   display: flex;
   justify-content: space-between;
@@ -120,6 +152,11 @@
   height: 5vh;
   border-radius: 20px;
   padding: 30px;
+}
+
+#dark .airtime{
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .airtime .logos{
@@ -152,6 +189,10 @@
   cursor: pointer;
 }
 
+#dark .airtime .text p{
+  border: 1px dashed #ffffff;
+}
+
 .transactions{
   display: flex;
   justify-content: space-between;
@@ -163,6 +204,11 @@
   padding: 30px;
 }
 
+#dark .transactions{
+  background-color: #000000;
+  color: #ffffff;
+}
+
 .transactions h3{
   color: #105FFB !important;
   /* position: relative; */
@@ -172,9 +218,9 @@
 }
 
 .transactions h5{
-  left: 350px;
+  left: 335px;
   width: 8px;
-  bottom: 27.5%;
+  bottom: 23%;
   height: 2%;
   /* content: ""; */
   display: block;
@@ -198,8 +244,153 @@
     background-color: #0850D4;
 }
 
+#dark .right{
+  background-color: #FD6820;
+}
+
 .right .brightness img{
   width: 13%;
+}
+
+.right .brightness{
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+.wallet{
+  background-color: #ffffff;
+  position: relative;
+  right: 85px;
+  top: 40px;
+  width: 13.5vw;
+  height: 28vh;
+  padding: 10px;
+  border-radius: 10px;
+
+  p{
+    font-size: .7em;
+  }
+}
+
+#dark .wallet{
+  background-color: #000;
+  color: #fff;
+}
+
+.wallet #button3{
+  border: none;
+  font-size: .9em;
+  background-color: #fff;
+  color: #FF6900;
+  text-decoration: underline;
+
+}
+
+#dark .wallet #button3{
+  background-color: #000;
+}
+
+.wallet .btn1{
+  display: flex;
+  justify-content: space-between;
+  background-color: #F4F5F9;
+  padding: 10px;
+}
+
+#dark .wallet .btn1{
+  background-color: #191919;
+}
+
+.wallet .btn1 #button1{
+  border: none;
+  background-color: #fff;
+  color: #000;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-size: .8em;
+}
+
+#dark .wallet .btn1 #button1{
+  background-color: #000;
+  color: #fff;
+}
+
+.wallet .btn1 #button2{
+  border: none;
+  font-size: .8em;
+  background-color: #F4F5F9;
+}
+
+#dark .wallet .btn1 #button2{
+  background-color: #191919;
+  color: #fff;
+}
+
+.wallet .btn2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet .btn2 #button1{
+  border: none;
+  background-color: #105FFB;
+  color: #fff;
+  padding: 13px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  
+}
+
+.wallet .btn2 #button2{
+  border: 1px dashed;
+  background-color: #fff;
+  font-size: .8em;
+  margin-top: 15px;
+  padding: 10px 30px;
+}
+
+#dark .wallet .btn2 #button2{
+  background-color: #000;
+  color: #fff;
+}
+
+.slideImg{
+  display: flex;
+  align-items: center;
+  width: 14.5vw;
+  height: 42vh;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  position: relative;
+  right:80px;
+}
+
+.slideImg img{
+  /* width: 100%; */
+  /* position: relative;
+   right: 8px; */
+  /* top: 100px; */
+  scroll-snap-align: start;
+  min-width: 100%;
+  border-radius: 0.2em;
+}
+
+.prev, .next{
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.25s;
+}
+
+.prev:hover, .next:hover{ transform: scale(1.2s);}
+
+::-webkit-scrollbar{
+  display: none;
 }
 
 
