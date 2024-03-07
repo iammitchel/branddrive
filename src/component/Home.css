@@ -1,0 +1,205 @@
+.home{
+  display: flex;
+}
+
+.body{
+  background-color: #F4F5F9;
+  width: 78%;
+}
+
+.header{
+  margin-left: 20px;
+  p{
+    font-size: 1.3em;
+    font-weight: 100;
+  }
+
+  h3{
+    font-size: 2em;
+    font-weight: 400;
+  }
+}
+
+.summary{
+  background-color: #ffffff;
+  margin: 40px;
+  width: 85%;
+  height: 25vh;
+  border-radius: 20px;
+}
+
+.custom-select select{
+  background-color: #F4F5F9;
+  border: none;
+  margin-top: 20px;
+  width: 70px;
+  height: 35px;
+  font-weight: 350;
+}
+
+.custom-select select option{
+  background-color: #ffffff;
+  border: none;
+  margin-bottom: 300px;
+  gap: 300px;
+}
+
+.custom-select select option:hover{
+  background-color: #F4F5F9;
+}
+
+.summary h5{
+  left: 350px;
+  width: 8px;
+  bottom: 75.5%;
+  height: 2%;
+  /* content: ""; */
+  display: block;
+  position: absolute;
+  transform: translateX(-50%);
+  background: #F2611F;
+  border-radius: 30px;
+}
+
+.summary .account{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+
+  h3{
+  color: #105FFB !important;
+    /* position: relative; */
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 15px;
+  }
+}
+
+.IncExp{
+  display: flex;
+}
+
+.IncExp .income{
+  width: 50%;
+  background-color: rgb(235, 249, 253);
+  margin: 10px;
+  height: 10vh;
+  border-radius: 20px;
+
+  p{
+    margin-left: 30px;
+  }
+
+  h3{
+    margin-left: 30px;
+  }
+}
+
+.IncExp .expenses {
+    width: 50%;
+      background-color: rgb(241, 239, 255);
+      margin: 10px;
+      height: 10vh;
+      border-radius: 20px;
+    
+      p {
+        margin-left: 30px;
+      }
+    
+      h3 {
+        margin-left: 30px;
+      }
+}
+
+.airtime{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  margin: 40px;
+  width: 81%;
+  height: 5vh;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.airtime .logos{
+  gap: 20px;
+}
+
+.airtime .logos img{
+  width: 16%;
+  height: 50px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.airtime .text{
+  gap: 10px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.airtime .text p{
+  width: 100%;
+  border: 1px dashed #011B60;
+  height: 25px;
+  padding: 5px;
+  white-space: nowrap;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.transactions{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  margin: 40px;
+  width: 81%;
+  height: 5vh;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.transactions h3{
+  color: #105FFB !important;
+  /* position: relative; */
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.transactions h5{
+  left: 350px;
+  width: 8px;
+  bottom: 27.5%;
+  height: 2%;
+  /* content: ""; */
+  display: block;
+  position: absolute;
+  transform: translateX(-50%);
+  background: #F2611F;
+  border-radius: 30px;
+}
+
+.transactions p{
+  text-decoration: underline;
+}
+
+.right{
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    background-color: #0850D4;
+}
+
+.right .brightness img{
+  width: 13%;
+}
+
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117" height="117" viewBox="0 0 117 117">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.214" y1="0.074" x2="0.859" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1eb4fa"/>
+      <stop offset="1" stop-color="#105ffb"/>
+    </linearGradient>
+  </defs>
+  <g id="User_Profile" data-name="User Profile" transform="translate(-1107 -363)">
+    <circle id="Ellipse_84" data-name="Ellipse 84" cx="58.5" cy="58.5" r="58.5" transform="translate(1107 363)" fill="url(#linear-gradient)"/>
+    <path id="user" d="M60.645,41.813a30.853,30.853,0,0,0-7.869-4.926,2.573,2.573,0,0,0-2.09,4.7,25.733,25.733,0,0,1,6.562,4.089,10.26,10.26,0,0,1,3.476,7.712v4.76a2.576,2.576,0,0,1-2.573,2.573H7.719a2.576,2.576,0,0,1-2.573-2.573v-4.76a10.26,10.26,0,0,1,3.476-7.712c2.6-2.285,10.174-7.6,24.313-7.6a19.063,19.063,0,1,0-11.6-3.951A35.772,35.772,0,0,0,5.225,41.813,15.406,15.406,0,0,0,0,53.391v4.76A7.728,7.728,0,0,0,7.719,65.87H58.151a7.728,7.728,0,0,0,7.719-7.719v-4.76A15.406,15.406,0,0,0,60.645,41.813ZM19.04,19.04A13.894,13.894,0,1,1,32.935,32.935,13.91,13.91,0,0,1,19.04,19.04Zm0,0" transform="translate(1132.565 388.565)" fill="#f4feff"/>
+  </g>
+</svg>

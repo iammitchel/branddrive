@@ -1,0 +1,49 @@
+.sidebar{
+  background-color: #fff;
+  width: 15%;
+  height: 100vh;
+  margin-top: 30px;
+
+  ul{
+    list-style: none;
+  }
+}
+
+.sidebar .img{
+  text-align: center;
+}
+
+.sidebar .img img{
+  width: 60%;
+}
+
+.list{
+  margin: 50px;
+
+  li{
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 200;
+  }
+}
+
+.setting{
+  display: flex;
+  margin-top: 180px;
+  margin-left: 40px;
+  background-color: #F4F5F9;
+  align-items: center;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+
+  img{
+    width: 50px;
+    margin-right: 5px;
+  }
+
+}
+
+.setting .text{
+  font-size: 11px;
+}
