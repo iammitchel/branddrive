@@ -69,18 +69,17 @@
   background-color: #F4F5F9;
 }
 
-.summary h5{
+/* .summary h5{
   left: 320px;
   width: 8px;
   bottom: 73%;
   height: 2%;
-  /* content: ""; */
   display: block;
   position: absolute;
   transform: translateX(-50%);
   background: #F2611F;
   border-radius: 30px;
-}
+} */
 
 .summary .account{
   display: flex;
@@ -217,18 +216,17 @@
   margin-left: 15px;
 }
 
-.transactions h5{
+/* .transactions h5{
   left: 335px;
   width: 8px;
   bottom: 23%;
   height: 2%;
-  /* content: ""; */
   display: block;
   position: absolute;
   transform: translateX(-50%);
   background: #F2611F;
   border-radius: 30px;
-}
+} */
 
 .transactions p{
   text-decoration: underline;
@@ -261,7 +259,7 @@
 .wallet{
   background-color: #ffffff;
   position: relative;
-  right: 85px;
+  right: 70%;
   top: 40px;
   width: 13.5vw;
   height: 28vh;
@@ -358,13 +356,13 @@
 .slideImg{
   display: flex;
   align-items: center;
-  width: 14.5vw;
+  width: 160%;
   height: 42vh;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   position: relative;
-  right:80px;
+  right:65%;
 }
 
 .slideImg img{
@@ -373,8 +371,9 @@
    right: 8px; */
   /* top: 100px; */
   scroll-snap-align: start;
-  min-width: 100%;
+  /* min-width: 100%; */
   border-radius: 0.2em;
+  width: 100%;
 }
 
 .prev, .next{
