@@ -331,6 +331,7 @@
 .wallet .btn2{
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .wallet .btn2 #button1{
@@ -351,6 +352,7 @@
   margin-top: 1px;
   padding: 10px 30px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 #dark .wallet .btn2 #button2{
