@@ -1,5 +1,6 @@
 .home{
   display: flex;
+  width: 100%;
 }
 
 .body{
@@ -33,7 +34,7 @@
 .summary{
   background-color: #ffffff;
   margin: 40px;
-  width: 85%;
+  width: 80%;
   height: 25vh;
   border-radius: 20px;
 }
@@ -100,7 +101,7 @@
 }
 
 .IncExp .income{
-  width: 50%;
+  width: 47%;
   background-color: rgb(235, 249, 253);
   margin: 10px;
   height: 10vh;
@@ -147,7 +148,7 @@
   justify-content: space-between;
   background-color: #ffffff;
   margin: 40px;
-  width: 81%;
+  width: 76%;
   height: 5vh;
   border-radius: 20px;
   padding: 30px;
@@ -197,7 +198,7 @@
   justify-content: space-between;
   background-color: #ffffff;
   margin: 40px;
-  width: 81%;
+  width: 76%;
   height: 5vh;
   border-radius: 20px;
   padding: 30px;
@@ -259,7 +260,7 @@
 .wallet{
   background-color: #ffffff;
   position: relative;
-  right: 70%;
+  right: 65%;
   top: 40px;
   width: 13.5vw;
   height: 28vh;
@@ -356,8 +357,8 @@
 .slideImg{
   display: flex;
   align-items: center;
-  width: 160%;
-  height: 42vh;
+  width: 14.5vw;
+  height: 48vh;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
