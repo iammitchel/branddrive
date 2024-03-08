@@ -56,7 +56,7 @@ const Home = () => {
           <section className="summary" id={theme}>
             <div className="account">
               <h3>
-                <h5> </h5>Account Summary
+                Account Summary
               </h3>
 
               {/* <Select
@@ -109,7 +109,7 @@ const Home = () => {
 
           <section className="transactions">
             <h3>
-              <h5> </h5>Most Recent Transactions
+              Most Recent Transactions
             </h3>
             <p>View All</p>
           </section>

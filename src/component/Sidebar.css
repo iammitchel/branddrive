@@ -37,7 +37,7 @@
     /* margin: 30px; */
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: 250;
     list-style: none;
     color: #000;
@@ -62,8 +62,8 @@
 
 .setting{
   display: flex;
-  margin-top: 160px;
-  margin-left: 40px;
+  margin-top: 80px;
+  margin-left: 14px;
   background-color: #F4F5F9;
   align-items: center;
   border-radius: 10px;

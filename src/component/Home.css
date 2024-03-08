@@ -35,7 +35,7 @@
   background-color: #ffffff;
   margin: 40px;
   width: 80%;
-  height: 25vh;
+  height: 23vh;
   border-radius: 20px;
 }
 
@@ -85,7 +85,7 @@
 .summary .account{
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  margin: 10px;
 
   h3{
   color: #105FFB !important;
@@ -104,7 +104,7 @@
   width: 47%;
   background-color: rgb(235, 249, 253);
   margin: 10px;
-  height: 10vh;
+  height: 11vh;
   border-radius: 20px;
 
   p{
@@ -126,7 +126,7 @@
     width: 50%;
       background-color: rgb(241, 239, 255);
       margin: 10px;
-      height: 10vh;
+      height: 11vh;
       border-radius: 20px;
     
       p {
@@ -201,7 +201,7 @@
   width: 76%;
   height: 5vh;
   border-radius: 20px;
-  padding: 30px;
+  padding: 20px;
 }
 
 #dark .transactions{
@@ -260,7 +260,7 @@
 .wallet{
   background-color: #ffffff;
   position: relative;
-  right: 65%;
+  right: 85px;
   top: 40px;
   width: 13.5vw;
   height: 28vh;
@@ -335,17 +335,18 @@
   border: none;
   background-color: #105FFB;
   color: #fff;
-  padding: 13px 15px;
+  padding: 1px 15px;
   border-radius: 5px;
-  margin-top: 15px;
+  margin-top: 1px;
+  font-size: .6em;
   
 }
 
 .wallet .btn2 #button2{
   border: 1px dashed;
   background-color: #fff;
-  font-size: .8em;
-  margin-top: 15px;
+  font-size: .6em;
+  margin-top: 1px;
   padding: 10px 30px;
 }
 
@@ -363,7 +364,7 @@
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   position: relative;
-  right:65%;
+  right:85px;
 }
 
 .slideImg img{
