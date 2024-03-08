@@ -283,7 +283,7 @@
   background-color: #fff;
   color: #FF6900;
   text-decoration: underline;
-
+  cursor: pointer;
 }
 
 #dark .wallet #button3{
@@ -308,6 +308,7 @@
   padding: 8px 20px;
   border-radius: 10px;
   font-size: .8em;
+  cursor: pointer;
 }
 
 #dark .wallet .btn1 #button1{
@@ -319,6 +320,7 @@
   border: none;
   font-size: .8em;
   background-color: #F4F5F9;
+  cursor: pointer;
 }
 
 #dark .wallet .btn1 #button2{
@@ -339,7 +341,7 @@
   border-radius: 5px;
   margin-top: 1px;
   font-size: .6em;
-  
+  cursor: pointer;
 }
 
 .wallet .btn2 #button2{
@@ -348,6 +350,7 @@
   font-size: .6em;
   margin-top: 1px;
   padding: 10px 30px;
+  cursor: pointer;
 }
 
 #dark .wallet .btn2 #button2{
